@@ -6,7 +6,6 @@ body{
 #baner{
     display: flex;
     height: 150px;
-    
 }
 
 #category{
@@ -38,4 +37,11 @@ p{
 a{
     text-decoration: none;
     color: black;
+}
+#login{
+    text-align: right;
+}
+img{
+    margin: 10px;
+    border: 2px;
 }
