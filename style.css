@@ -1,25 +1,28 @@
 body{
     font-family: 'Motiva Sans', sans-serif;
     background-color: lightgray;
+    text-align: center;
 }
 
 #baner{
-    display: flex;
     height: 150px;
 }
 
 #category{
+    text-align: center;
     display: flex;
     background-color: aqua;
-    height: 100px;
+    height: 104px;
+    
 }
 
 #slider{
     display: flex;
     height: 300px;
-    background-color: red;
+    background-color: lightcyan;
 }
 #background{
+    text-align: center;
     height: 200px;
     background-color: blue;
     display: flex;
@@ -31,17 +34,40 @@ footer{
 
 }
 p{
-    text-align: center;
+   
     margin: 20px;
 }
 a{
     text-decoration: none;
     color: black;
 }
-#login{
+#Login{
     text-align: right;
 }
-img{
+#slider img{
     margin: 10px;
     border: 2px;
+    border-style:groove;
+    border-radius: 20px;
+}
+.szer{
+    width: 250px;
+}
+#category img{
+    border: 2px;
+    border-style:groove;
+}
+.cate{
+    width: 25%;
+   float: left;
+}
+#Search{
+    text-align: left;
+}
+#Cart{
+    text-align: right;
+    
+}
+a#Search{
+text-align: right;
 }
