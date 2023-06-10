@@ -1,5 +1,37 @@
 body{
     font-family: 'Motiva Sans', sans-serif;
+    background-color: lightgray;
 }
 
+#baner{
+    display: flex;
+    height: 150px;
+    
+}
 
+#category{
+    display: flex;
+    background-color: aqua;
+    height: 100px;
+}
+
+#slider{
+    display: flex;
+    height: 300px;
+    background-color: red;
+}
+#background{
+    height: 200px;
+    background-color: blue;
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+
+}
+p{
+    text-align: center;
+    margin: 20px;
+}
