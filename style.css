@@ -16,11 +16,27 @@ body{
     
 }
 
-#slider{
-    display: flex;
-    height: 300px;
-    background-color: lightcyan;
+.slider{
+  max-height: 500px;
+  border:1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
+.slider::-webkit-scrollbar{
+    width: 0;
+}
+
+.slider img{
+    min-width: 500px;
+    height: 300px;
+    line-height: 300px;
+    margin: 10px;
+    border: 2px;
+    border-style:groove;
+    border-radius: 20px;
+}
+
 #background{
     text-align: center;
     height: 200px;
