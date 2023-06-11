@@ -61,8 +61,8 @@ img:hover{
 }
 .slider::before,
 .slider::after{
-    background: linear-gradient(to right, rgba(255,255,255,1)5%,
-    rgba(255,255,255,0)70%);
+    background: linear-gradient(to right, rgba(78, 34, 5, 0.836)1%,
+    rgba(228, 6, 6, 0)15%);
     content: '';
     height: 100%;
     position: absolute;
